@@ -7,11 +7,22 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section class="background">
-      <h2>🎨 랜덤 배경색 변경기기</h2>
-      <button class="change_button">색상 변경</button>
-      <h5 class="colored_text"></h5>
-    </section>
-    <script src="script.js"></script>
+    <main>
+      <section class="background">
+        <h1>🎨 랜덤 배경색 변경기</h1>
+
+        <button class="change_button" aria-label="배경색 변경">
+          색상 변경
+        </button>
+
+        <p>
+          현재 색상:
+          <output class="colored_text" aria-live="polite"
+            >rgb(255, 255, 255)</output
+          >
+        </p>
+      </section>
+    </main>
+    <script src="script.js" />
   </body>
 </html>
