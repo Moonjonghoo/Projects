@@ -1,6 +1,6 @@
-const text = document.querySelector(".colored_text");
-const background = document.querySelector(".background");
-const changebutton = document.querySelector(".change_button");
+const text = document.querySelector(".color-text");
+const background = document.querySelector(".color-changer");
+const changebutton = document.querySelector(".btn-change");
 let color = "";
 
 function rendomColor() {
